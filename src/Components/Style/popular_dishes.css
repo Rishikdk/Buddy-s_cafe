@@ -1,0 +1,6 @@
+.Container_Popular {
+  display: flex;
+  width: 30%;
+  height: 25vh;
+  background-color: var(--white);
+}
