@@ -6,4 +6,5 @@
 }
 body {
   background-color: var(--main-background_color);
+  margin: 110px;
 }
