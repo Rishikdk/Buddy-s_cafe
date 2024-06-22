@@ -14,8 +14,16 @@ class App extends React.Component {
           </div>
           <div className="Popular">
             <Popular />
-            <label>Rishi khadka</label>
+            <Popular />
+            <Popular />
+            <Popular />
           </div>
+
+          <div className="memories"></div>
+          <div className="About_us"></div>
+          <div className="Menu"></div>
+          <div className="Customer_review"></div>
+          <div className="footer"></div>
         </div>
       </>
     );

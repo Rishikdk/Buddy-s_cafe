@@ -1,6 +1,9 @@
 .Container_Popular {
   display: flex;
-  width: 30%;
+  width: 20%;
   height: 25vh;
   background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 7px 7px 35p, -7px -7px 35px #ffffff;
+  margin: 5px;
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  gap: 5px;
+  gap: 10px;
 }
 
 .Container_header {
@@ -23,5 +23,51 @@
   flex-direction: row;
   width: 100%;
   background-color: blue;
+  height: 30vh;
+  gap: 5px;
+}
+
+.memories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: red;
   height: 25vh;
+  gap: 5px;
+}
+
+.About_us {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: green;
+  height: 20vh;
+  gap: 5px;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: yellow;
+  height: 25vh;
+  gap: 5px;
+}
+
+.Customer_review {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: purple;
+  height: 20vh;
+  gap: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  height: 20vh;
+  gap: 5px;
 }
