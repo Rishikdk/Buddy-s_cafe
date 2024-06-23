@@ -1,9 +1,25 @@
 .Container_Popular {
   display: flex;
   width: 20%;
-  height: 25vh;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--white);
   border-radius: 20px;
   box-shadow: 7px 7px 35p, -7px -7px 35px #ffffff;
   margin: 5px;
+}
+
+.Dish_img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.Dish_name h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--main-background_color);
+  padding: 0;
+  margin: 0 0 25px 0;
 }

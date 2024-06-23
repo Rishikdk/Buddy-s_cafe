@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  gap: 10px;
+  gap: 25px;
 }
 
 .Container_header {
@@ -11,6 +11,12 @@
   width: 100%;
   height: 40vh;
   background-color: aqua;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--white);
+  margin: 15px 0 0 0;
 }
 
 .Desk_pic {
@@ -22,8 +28,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: blue;
-  height: 30vh;
+  height: auto;
   gap: 5px;
 }
 
@@ -34,6 +39,16 @@
   background-color: red;
   height: 25vh;
   gap: 5px;
+}
+
+.memories h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translateY(-45px);
+  background-color: black;
+  font-weight: 600;
+  color: var(--white);
 }
 
 .About_us {

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Components/header.jsx";
 import Desk_pic from "./assets/img/front.jpeg";
+import Dish1 from "./assets/img/OIP.jpeg";
 import Popular from "./Components/Popular_Dishes.jsx";
 import "./App.css";
 
@@ -12,14 +13,18 @@ class App extends React.Component {
           <div className="Container_header">
             <img src={Desk_pic} className="Desk_pic" alt="Desk_pic" />
           </div>
+          <h1>Popular Dishes</h1>
           <div className="Popular">
-            <Popular />
-            <Popular />
-            <Popular />
-            <Popular />
+            <Popular img={Dish1} name="momo1" />
+            <Popular img={Dish1} name="momo2" />
+            <Popular img={Dish1} name="momo3" />
+            <Popular img={Dish1} name="momo4" />
+            <Popular img={Dish1} name="momo5" />
           </div>
 
-          <div className="memories"></div>
+          <div className="memories">
+            <h2>Memories</h2>
+          </div>
           <div className="About_us"></div>
           <div className="Menu"></div>
           <div className="Customer_review"></div>
