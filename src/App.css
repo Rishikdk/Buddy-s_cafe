@@ -37,6 +37,8 @@ h1 {
 } */
 
 .memories {
+  margin-top: 0px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -44,27 +46,29 @@ h1 {
   background-color: white;
   height: auto;
   border-radius: 20px;
+  padding: 15px;
 }
 
 .memories h2 {
   display: flex;
-  width: 20%;
-  height: 40px;
+  width: 20rem;
+  height: auto;
   flex-direction: row;
   justify-content: center;
-  transform: translateY(-50px);
+  transform: translateY(-15px);
   background-color: black;
-  font-size: 40px;
+  font-size: 1.9rem;
   color: var(--white);
   border-radius: 10px;
+  margin: 0px;
 }
 
 .About_us {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: green;
-  height: 20vh;
+
+  height: auto;
   gap: 5px;
 }
 

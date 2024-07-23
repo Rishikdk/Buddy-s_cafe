@@ -1,0 +1,64 @@
+.Containers_about {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  gap: 250px;
+}
+
+.Container_profile {
+  display: flex;
+}
+.owner_profile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: auto;
+}
+
+.owner_img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.half_circle {
+  width: 100px;
+  height: 220px;
+  background-color: #070809;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 10px;
+  /* transform: translateX(-100px); */
+  transform: translateY(-210px);
+  background-image: url("D:\cafe\website\Buddy's_cafe\src\assets\people\4.png");
+  background-size: cover;
+  background-position: center;
+}
+.owner_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-210px);
+}
+h1 {
+  width: 20rem;
+}
+p {
+  font-size: 20px;
+  color: aliceblue;
+  padding: 0px;
+}
+
+.Container_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
