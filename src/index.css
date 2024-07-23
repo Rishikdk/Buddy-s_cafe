@@ -5,6 +5,7 @@
   --black: #000000;
 }
 body {
+  margin: 5px 110px 0 110px;
   background-color: var(--main-background_color);
 }
 

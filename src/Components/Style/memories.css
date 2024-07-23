@@ -1,0 +1,13 @@
+.Container_Memories {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.Container_Memories .celeb_pic {
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  align-content: center;
+  /* gap: 25px; */
+}
