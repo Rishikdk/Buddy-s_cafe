@@ -32,6 +32,11 @@ h1 {
   gap: 5px;
 }
 
+/* .Popular:hover {
+  width: 200%;
+  height: 50%;
+} */
+
 .memories {
   display: flex;
   flex-direction: row;

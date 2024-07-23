@@ -11,9 +11,11 @@
 }
 
 .Dish_img {
+  margin: 5px 5px 5px 5px;
   width: 100%;
   height: auto;
   border-radius: 20px;
+  transition: 0.8s;
 }
 
 .Dish_name h1 {
@@ -22,4 +24,20 @@
   color: var(--main-background_color);
   padding: 0;
   margin: 0 0 25px 0;
+}
+
+.Dish_name {
+  background-image: url();
+}
+
+.Dish_img:hover {
+  width: 150%;
+  height: 10S0%;
+  z-index: 1;
+}
+
+.rectangle svg {
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
