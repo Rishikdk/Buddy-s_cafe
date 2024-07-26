@@ -72,7 +72,6 @@ h1 {
   display: flex;
   flex-direction: row;
   width: 100%;
-
   height: auto;
   gap: 5px;
 }
@@ -82,7 +81,7 @@ h1 {
   flex-direction: row;
   width: 100%;
   background-color: yellow;
-  height: 25vh;
+  height: auto;
   gap: 5px;
 }
 

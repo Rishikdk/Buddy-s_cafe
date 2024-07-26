@@ -1,0 +1,53 @@
+.Containers {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.menu_type li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav a {
+  display: flex;
+  color: black;
+  font-family: "Righteous", sans-serif;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#item {
+  display: flex;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+#item1 {
+  font-size: 3rem;
+}
+
+.container_menu {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.menu_img {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: auto;
+}
