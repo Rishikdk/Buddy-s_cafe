@@ -9,7 +9,7 @@ class Popular extends React.Component {
         <div className="Container_Popular">
           <img src={this.props.img} className="Dish_img" alt="Dish_img" />
           <div className="Dish_name">
-            <h1>{this.props.name}</h1>
+            <h2>{this.props.name}</h2>
             {/* <svg
               className="rectangle"
               width="100%"

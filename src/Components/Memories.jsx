@@ -8,16 +8,18 @@ class Memories extends React.Component {
     return (
       <>
         <div className="Container_Memories">
-          <img src={Celeb1} className="celeb_pic" alt="celeb_pic" />
-          <img src={Celeb2} className="celeb_pic" alt="celeb_pic" />
+          <div className="celeb_pic">
+            <img src={Celeb1} className=" item1" alt="celeb_pic" />
+            <img src={Celeb2} className=" item2" alt="celeb_pic" />
 
-          <img src={Celeb3} className="celeb_pic" alt="celeb_pic" />
+            <img src={Celeb3} className=" item3" alt="celeb_pic" />
 
-          <img src={Celeb1} className="celeb_pic" alt="celeb_pic" />
+            <img src={Celeb1} className=" item4" alt="celeb_pic" />
 
-          <img src={Celeb2} className="celeb_pic" alt="celeb_pic" />
+            <img src={Celeb2} className=" item5" alt="celeb_pic" />
 
-          <img src={Celeb3} className="celeb_pic" alt="celeb_pic" />
+            <img src={Celeb3} className=" item6" alt="celeb_pic" />
+          </div>
         </div>
       </>
     );

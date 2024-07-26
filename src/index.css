@@ -6,7 +6,7 @@
 }
 body {
   margin: 5px 110px 0 110px;
-  background-color: var(--main-background_color);
+  background-color: var(--white);
 }
 
 img {
@@ -19,4 +19,26 @@ svg {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-family: "Righteous", sans-serif;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Righteous", sans-serif;
+  color: var(--main-background_color);
+}
+
+p {
+  align-items: center;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
 }

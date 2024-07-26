@@ -1,9 +1,11 @@
 .Containers_about {
   display: flex;
   flex-direction: row;
-
-  justify-content: space-around;
-  gap: 250px;
+  justify-content: space-evenly;
+  gap: 10rem;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-top: 2rem;
 }
 
 .Container_profile {
@@ -12,22 +14,23 @@
 .owner_profile {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   height: auto;
+  flex: 0.5;
 }
 
 .owner_img {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
-  margin-top: 15px;
+  align-items: center;
 }
 .half_circle {
-  width: 100px;
-  height: 220px;
+  width: 125px;
+  height: 225px;
   background-color: #070809;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  transform: translateX(-50px);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -36,7 +39,6 @@
   height: 200px;
   border-radius: 50%;
   margin-left: 10px;
-  /* transform: translateX(-100px); */
   transform: translateY(-210px);
   background-image: url("D:\cafe\website\Buddy's_cafe\src\assets\people\4.png");
   background-size: cover;
@@ -47,17 +49,20 @@
   flex-direction: column;
   align-items: center;
   transform: translateY(-210px);
-}
-h1 {
-  width: 20rem;
-}
-p {
-  font-size: 20px;
-  color: aliceblue;
+  margin: 0px;
   padding: 0px;
+}
+.owner_name h1 {
+  width: 70%;
+  justify-content: center;
+}
+.owner_name p {
+  font-size: 2vmax;
+  color: var(--main-background_color);
 }
 
 .Container_details {
+  flex: 0.5;
   display: flex;
   flex-direction: column;
   align-items: center;

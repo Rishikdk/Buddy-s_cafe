@@ -15,17 +15,20 @@ class App extends React.Component {
           <div className="Container_header">
             <img src={Desk_pic} className="Desk_pic" alt="Desk_pic" />
           </div>
-          <h1>Popular Dishes</h1>
+          <h1 className="popular_name">Popular Dishes</h1>
           <div className="Popular">
-            <Popular img={Dish1} name="momo1" />
-            <Popular img={Dish1} name="momo2" />
-            <Popular img={Dish1} name="momo3" />
-            <Popular img={Dish1} name="momo4" />
-            <Popular img={Dish1} name="momo5" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
+            <Popular img={Dish1} name="pizza" />
           </div>
 
           <div className="memories">
-            <h2>Memories</h2>
+            <h1>Memories</h1>
             <Memories />
           </div>
           <div className="About_us">

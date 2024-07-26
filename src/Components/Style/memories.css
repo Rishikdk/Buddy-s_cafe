@@ -2,22 +2,45 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  margin: 0px;
-  padding: 0px;
   gap: 5px;
+  position: relative;
+  height: 20rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, rgb(), rgb(), rgb());
 }
 
 .Container_Memories .celeb_pic {
+  display: flex;
   width: 20%;
   height: auto;
   padding: 10px;
   align-content: center;
   transition: 1s;
-  /* gap: 25px; */
+  position: absolute;
+  left: 80%;
+  animation-name: scrollleft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  gap: 25px;
+  animation-delay: -30s;
 }
 
-.celeb_pic:hover {
-  width: 50%;
-  height: 20%;
-  align-self: center;
+.celeb_pic img {
+  width: 100%;
+  height: auto;
+}
+/* .celeb_pic:hover {
+  animation-play-state: paused !important;
+} */
+.celeb_pic img:hover {
+  animation-play-state: paused !important;
+  width: 150%;
+  height: 50%;
+}
+
+@keyframes scrollleft {
+  to {
+    left: -90%;
+  }
 }
