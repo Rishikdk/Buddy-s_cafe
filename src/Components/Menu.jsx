@@ -4,6 +4,10 @@ import Menu2 from "../assets/img/menu/2.png";
 import Menu3 from "../assets/img/menu/3.png";
 import Menu4 from "../assets/img/menu/4.png";
 import Menu5 from "../assets/img/menu/5.png";
+import Drink1 from "../assets/img/Drink/6.jpg";
+import Drink2 from "../assets/img/Drink/7.jpg";
+import Drink3 from "../assets/img/Drink/8.jpg";
+import Drink4 from "../assets/img/Drink/9.jpg";
 import "./Style/menu.css";
 function Menu() {
   return (
@@ -13,7 +17,7 @@ function Menu() {
           <nav>
             <ul className="menu_type">
               <li className="item1" id="item1">
-                <a href="#"> Menu</a>
+                <a href="#Menu"> Menu</a>
               </li>
               <li>
                 <a href="#" className="item2" id="item">
@@ -43,7 +47,8 @@ function Menu() {
           </nav>
         </div>
 
-        <div className="container_menu">
+        {/* Main menu of the page */}
+        <div className="container_menu" id="Menu">
           <div className="row_menu1">
             <div className="menu_style">
               <img src={Menu1} alt="image 1" />
@@ -73,9 +78,43 @@ function Menu() {
             </div>
           </div>
         </div>
+
+        {/* //Drinks */}
+
+        <div className="container_drinks" id="drink">
+          <div className="row_menu1">
+            <div className="menu_style">
+              <img src={Drink1} alt="image 1" />
+              <h2>Dishes-1</h2>
+            </div>
+            <div className="menu_style">
+              <img src={Drink2} alt="image 2" />
+              <h2>Dishes-2</h2>
+            </div>
+            <div className="menu_style">
+              <img src={Drink3} alt="image 3" />
+              <h2>Dishes-3</h2>
+            </div>
+          </div>
+          <div className="row_menu2">
+            <div className="menu_style">
+              <img src={Drink4} alt="image 4" />
+              <h2>Dishes-4</h2>
+            </div>
+            {/* <div className="menu_style">
+              <img src={Menu5} alt="image 5" />
+              <h2>Dishes-5</h2>
+            </div>
+            <div className="menu_style">
+              <img src={Menu5} alt="image 5" />
+              <h2>Dishes-5</h2>
+            </div> */}
+          </div>
+        </div>
       </div>
     </>
   );
 }
 
+function onClick() {}
 export default Menu;
