@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/Buddys_logo.jpg";
+import { FaAlignRight } from "react-icons/fa";
 
 import "../Components/Style/header.css";
 
@@ -23,6 +24,10 @@ class header extends React.Component {
                 <li>Service</li>
                 <li>About Us</li>
                 <li>Menu</li>
+                <li id="i">
+                  {" "}
+                  <FaAlignRight />
+                </li>
               </ul>
             </div>
 
