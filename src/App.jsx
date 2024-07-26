@@ -5,6 +5,7 @@ import Dish1 from "./assets/img/OIP.jpeg";
 import Popular from "./Components/Popular_Dishes.jsx";
 import Memories from "./Components/Memories.jsx";
 import About_us from "./Components/About_Us.jsx";
+import Menu from "./Components/Menu.jsx";
 import "./App.css";
 
 class App extends React.Component {
@@ -34,7 +35,9 @@ class App extends React.Component {
           <div className="About_us">
             <About_us />
           </div>
-          <div className="Menu"></div>
+          <div className="Menu">
+            <Menu />
+          </div>
           <div className="Customer_review"></div>
           <div className="footer"></div>
         </div>
