@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/Buddys_logo.jpg";
+
 import "../Components/Style/header.css";
 
 class header extends React.Component {

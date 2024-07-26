@@ -15,7 +15,6 @@
 }
 
 .Dish_img {
-  margin: 5px 5px 5px 5px;
   width: 100%;
   height: auto;
   border-radius: 20px;
@@ -25,7 +24,7 @@
 .Dish_name h1 {
   align-content: center;
   justify-content: center;
-  color: var(--main-background_color);
+  color: white;
   padding: 0;
   margin: 0 0 25px 0;
 }
@@ -33,6 +32,7 @@
 .Dish_img:hover {
   width: 150%;
   height: 100%;
+  z-index: 1;
 }
 
 @media (max-width: 600px) {

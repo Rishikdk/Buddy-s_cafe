@@ -58,7 +58,7 @@
 }
 .owner_name p {
   font-size: 2vmax;
-  color: var(--main-background_color);
+  color: var(--white);
 }
 
 .Container_details {
