@@ -14,22 +14,22 @@ function Menu() {
           <nav>
             <ul className="menu_type">
               <li className="item1" id="item1">
-                <a href="#Menu"> Menu</a>
+                <Link to="/"> Menu</Link>
               </li>
               <li>
-                <a href="#" className="item2" id="item">
+                <Link to="/" className="item2" id="item">
                   {" "}
                   Dishes
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="item3" id="item">
+                <Link to="/salad" className="item3" id="item">
                   {" "}
                   Salad
-                </a>
+                </Link>
               </li>
               <li>
-                <Link to="/Drink" className="item4" id="item">
+                <Link to="/drink" className="item4" id="item">
                   Drinks
                 </Link>
               </li>
