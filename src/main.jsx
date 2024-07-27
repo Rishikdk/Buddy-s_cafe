@@ -6,6 +6,7 @@ import "@fontsource/righteous";
 import ErrorPage from "./error-page.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Menu from "./Components/Menu.jsx";
+import Drink from "./Components/menu_type/Drink.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "menu",
     element: <Menu />,
+  },
+  {
+    path: "drink",
+    element: <Drink />,
   },
 ]);
 

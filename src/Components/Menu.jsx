@@ -4,10 +4,7 @@ import Menu2 from "../assets/img/menu/2.png";
 import Menu3 from "../assets/img/menu/3.png";
 import Menu4 from "../assets/img/menu/4.png";
 import Menu5 from "../assets/img/menu/5.png";
-import Drink1 from "../assets/img/Drink/6.jpg";
-import Drink2 from "../assets/img/Drink/7.jpg";
-import Drink3 from "../assets/img/Drink/8.jpg";
-import Drink4 from "../assets/img/Drink/9.jpg";
+import { Link } from "react-router-dom";
 import "./Style/menu.css";
 function Menu() {
   return (
@@ -32,10 +29,9 @@ function Menu() {
                 </a>
               </li>
               <li>
-                <a href="#" className="item4" id="item">
-                  {" "}
+                <Link to="/Drink" className="item4" id="item">
                   Drinks
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="item5" id="item">
@@ -46,7 +42,6 @@ function Menu() {
             </ul>
           </nav>
         </div>
-
         {/* Main menu of the page */}
         <div className="container_menu" id="Menu">
           <div className="row_menu1">
@@ -79,9 +74,7 @@ function Menu() {
           </div>
         </div>
 
-        {/* //Drinks */}
-
-        <div className="container_drinks" id="drink">
+        {/* <div className="container_drinks" id="drink">
           <div className="row_menu1">
             <div className="menu_style">
               <img src={Drink1} alt="image 1" />
@@ -108,9 +101,9 @@ function Menu() {
             <div className="menu_style">
               <img src={Menu5} alt="image 5" />
               <h2>Dishes-5</h2>
-            </div> */}
+            </div> *
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
