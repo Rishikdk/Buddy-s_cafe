@@ -86,16 +86,33 @@ h1 {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: purple;
+
   height: auto;
-  gap: 5px;
+  gap: 10rem;
 }
 
 .footer {
+  margin-top: 10rem;
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: black;
-  height: 20vh;
+  height: auto;
   gap: 5px;
+  margin-bottom: 0.1rem;
+}
+
+.footer_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer_name h1 {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
 }

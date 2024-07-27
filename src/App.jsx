@@ -10,6 +10,7 @@ import About_us from "./Components/About_Us.jsx";
 import Menu from "./Components/Menu.jsx";
 import "./App.css";
 import CustomerReview from "./Components/Customer_reviews.jsx";
+import Footer from "./Components/Footer.jsx";
 
 class App extends React.Component {
   render() {
@@ -47,7 +48,15 @@ class App extends React.Component {
           <div className="Customer_review">
             <CustomerReview />
           </div>
-          <div className="footer"></div>
+          <div className="footer">
+            <Footer />
+          </div>
+          <div className="footer_name">
+            <h1>Terms and condition</h1>
+            <h1>Privacy Policy</h1>
+            <h1>Contact</h1>
+            <h1>@Buddy's Cafe</h1>
+          </div>
         </div>
       </>
     );
