@@ -9,6 +9,7 @@ import Memories from "./Components/Memories.jsx";
 import About_us from "./Components/About_Us.jsx";
 import Menu from "./Components/Menu.jsx";
 import "./App.css";
+import CustomerReview from "./Components/Customer_reviews.jsx";
 
 class App extends React.Component {
   render() {
@@ -43,7 +44,9 @@ class App extends React.Component {
           <div className="Menu">
             <Menu />
           </div>
-          <div className="Customer_review"></div>
+          <div className="Customer_review">
+            <CustomerReview />
+          </div>
           <div className="footer"></div>
         </div>
       </>

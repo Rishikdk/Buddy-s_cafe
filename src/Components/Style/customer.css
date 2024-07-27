@@ -1,0 +1,65 @@
+.Container_review {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url("D:\cafe\website\Buddy's_cafe\src\assets\svg\customer.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  padding-bottom: 15px;
+  padding-top: 75px;
+  align-items: center;
+}
+.titles h1 {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.Containers_box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 3rem;
+  margin-left: 25px;
+  overflow-x: auto;
+  padding: 8px;
+}
+
+.container_user {
+  display: flex;
+  width: 40%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.user_profile {
+  margin: 7px;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.comment {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  background-color: aqua;
+}
