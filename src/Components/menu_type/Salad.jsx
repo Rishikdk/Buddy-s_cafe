@@ -31,10 +31,10 @@ function Salad() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="item5" id="item">
+                <Link to="/special" className="item5" id="item">
                   {" "}
                   Special
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
