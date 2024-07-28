@@ -12,6 +12,7 @@
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   margin: 5px;
   flex-wrap: wrap;
+  transition: 0.8s;
 }
 
 .Dish_img {
@@ -21,6 +22,12 @@
   transition: 0.8s;
 }
 
+.Container_Popular:hover {
+  /* width: 40%; */
+  width: 25%;
+  height: 15%;
+  z-index: 1;
+}
 .Dish_name h1 {
   align-content: center;
   justify-content: center;
@@ -29,15 +36,22 @@
   margin: 0 0 25px 0;
 }
 
-.Dish_img:hover {
+/* .Dish_img:hover {
   width: 150%;
   height: 100%;
   z-index: 1;
-}
+} */
 
 @media (max-width: 600px) {
   .Container_Popular {
     display: flex;
     width: 100%;
+  }
+
+  .Container_Popular:hover {
+    /* width: 40%; */
+    width: 110%;
+    height: 110%;
+    z-index: 1;
   }
 }

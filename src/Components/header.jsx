@@ -23,7 +23,7 @@ class header extends React.Component {
               <ul>
                 <li>Home</li>
                 <li>Service</li>
-                <li>About Us</li>
+                <li className="about_us">About Us</li>
                 {/* <li>Menu</li> */}
                 <li className="facebook_icone">
                   <a href="https://www.facebook.com/buddysrestro">
@@ -43,7 +43,9 @@ class header extends React.Component {
               </ul>
             </div>
 
-            <div className="header_logo"></div>
+            <div className="header_logo">
+              <FaAlignRight />
+            </div>
           </div>
         </div>
       </>

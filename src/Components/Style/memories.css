@@ -4,7 +4,7 @@
   flex-direction: row;
   gap: 5px;
   position: relative;
-  height: 20rem;
+  height: 15rem;
   overflow: hidden;
   mask-image: linear-gradient(to right, rgb(), rgb(), rgb());
 }
@@ -27,7 +27,7 @@
 }
 
 .celeb_pic img {
-  width: 100%;
+  width: 150%;
   height: auto;
   aspect-ratio: 16/9;
 }
@@ -36,12 +36,29 @@
 } */
 .celeb_pic img:hover {
   animation-play-state: paused !important;
-  width: 150%;
-  height: 50%;
+  width: 200%;
+  height: auto;
 }
 
 @keyframes scrollleft {
   to {
     left: -90%;
+  }
+}
+@media (max-width: 600px) {
+  .Container_Memories {
+    width: 100%;
+    height: 10rem;
+  }
+  .celeb_pic img {
+    width: 300%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  .celeb_pic img:hover {
+    animation-play-state: paused !important;
+    width: 400%;
+    height: auto;
   }
 }

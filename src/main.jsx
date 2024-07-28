@@ -19,20 +19,18 @@ const router = createBrowserRouter([
   {
     path: "menu",
     element: <Menu />,
-    children: [
-      {
-        path: "salad",
-        element: <Salad />,
-      },
-      {
-        path: "special",
-        element: <Special />,
-      },
-      {
-        path: "drink",
-        element: <Drink />,
-      },
-    ],
+  },
+  {
+    path: "salad",
+    element: <Salad />,
+  },
+  {
+    path: "special",
+    element: <Special />,
+  },
+  {
+    path: "drink",
+    element: <Drink />,
   },
 ]);
 
