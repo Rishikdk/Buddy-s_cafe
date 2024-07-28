@@ -26,10 +26,14 @@ class header extends React.Component {
                 <li>About Us</li>
                 {/* <li>Menu</li> */}
                 <li className="facebook_icone">
-                  <SiFacebook />
+                  <a href="https://www.facebook.com/buddysrestro">
+                    <SiFacebook />
+                  </a>
                 </li>
                 <li className="instagram_icone">
-                  <RiInstagramFill />
+                  <a href="https://www.instagram.com/buddys_cafe_07/">
+                    <RiInstagramFill />
+                  </a>
                 </li>
 
                 <li id="i">

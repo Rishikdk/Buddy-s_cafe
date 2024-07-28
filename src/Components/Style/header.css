@@ -47,7 +47,12 @@
 .Container_tag {
   display: flex;
 }
-
+.facebook_icone a {
+  text-decoration: none;
+}
+.instagram_icone a {
+  text-decoration: none;
+}
 .header_menu ul {
   display: flex;
   list-style: none;

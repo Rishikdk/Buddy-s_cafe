@@ -16,7 +16,7 @@ function Footer() {
             <li>Contact</li>
             <li>Location: </li>
             <li>Hatti Dara,Kharey,Kathmandu</li>
-            <li>Tel:9865993612</li>
+            <li>Tel:9851116121</li>
             <li>info@buddys.com</li>
             <li> </li>
             <li></li>
