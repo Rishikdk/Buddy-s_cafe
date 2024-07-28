@@ -65,18 +65,12 @@ nav a {
   border-radius: 20px;
 }
 
-.row_menu1:hover {
+/* .row_menu1:hover {
   width: 200%;
-  /* transform: scale(1.1); Slightly enlarge the div on hover */
+  transform: scale(1.1); Slightly enlarge the div on hover
   cursor: pointer;
   z-index: 1;
-}
-
-.row_menu2:hover {
-  width: 200%;
-  /* transform: scale(1.1); Slightly enlarge the div on hover */
-  cursor: pointer;
-}
+} */
 
 .menu_style {
   display: flex;
@@ -87,6 +81,12 @@ nav a {
   background-color: rgb(201, 202, 202);
   border-radius: 20px;
   gap: 1rem;
+  transition: all 500ms ease-in-out;
+}
+.menu_style:hover {
+  width: 200%;
+  /* transform: scale(1.1); Slightly enlarge the div on hover */
+  cursor: pointer;
 }
 
 .row_menu2 {
