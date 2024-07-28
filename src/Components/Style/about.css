@@ -13,7 +13,9 @@
 }
 .owner_profile {
   display: flex;
+  margin-top: 5rem;
   flex-direction: column;
+  justify-content: center;
   height: auto;
   flex: 0.5;
 }
@@ -53,7 +55,7 @@
   padding: 0px;
 }
 .owner_name h1 {
-  width: 70%;
+  width: 100%;
   justify-content: center;
 }
 .owner_name p {
@@ -65,5 +67,28 @@
   flex: 0.5;
   display: flex;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.5);
+  /* backdrop-filter: blur(45%); */
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
   align-items: center;
+  height: auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Container_details p {
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .owner_name h1 {
+    width: 200%;
+    justify-content: center;
+  }
+  .Container_details {
+    flex: 1;
+  }
 }
