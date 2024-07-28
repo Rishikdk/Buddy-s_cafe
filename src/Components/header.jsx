@@ -1,7 +1,8 @@
 import React from "react";
-import Logo from "../assets/img/Buddys_logo.jpg";
+import Logo from "../assets/img/logo_cafe.png";
 import { FaAlignRight } from "react-icons/fa";
-
+import { SiFacebook } from "react-icons/si";
+import { RiInstagramFill } from "react-icons/ri";
 import "../Components/Style/header.css";
 
 class header extends React.Component {
@@ -23,7 +24,14 @@ class header extends React.Component {
                 <li>Home</li>
                 <li>Service</li>
                 <li>About Us</li>
-                <li>Menu</li>
+                {/* <li>Menu</li> */}
+                <li className="facebook_icone">
+                  <SiFacebook />
+                </li>
+                <li className="instagram_icone">
+                  <RiInstagramFill />
+                </li>
+
                 <li id="i">
                   {" "}
                   <FaAlignRight />

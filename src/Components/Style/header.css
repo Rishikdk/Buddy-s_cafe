@@ -2,32 +2,46 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 15vh;
-  background-color: var(--white);
-  justify-content: space-between;
+  height: auto;
+  /* background-color: var(--white); */
+  justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  backdrop-filter: blur(45%);
+  background: rgba(255, 255, 255, 0.5);
+  /* backdrop-filter: blur(45%); */
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
 }
 
 .header img {
   width: 117px;
   height: 90px;
+  background: none;
   mix-blend-mode: multiply;
 }
 
 .header_name h1 {
   display: flex;
   flex-direction: column;
+  font-size: 2rem;
+  padding: 0px;
+  color: var(--main-background_color);
+}
+
+.header_name p {
+  margin: 0%;
+  margin-bottom: 15px;
   font-size: 1rem;
-  color: var(--main-background-color);
 }
 
 .Container_tag {
@@ -41,11 +55,29 @@
   font-weight: 600;
   font-size: 1.4rem;
   align-items: center;
+  font-family: "Righteous", sans-serif;
 }
 
 #i {
   font-size: 2rem;
   display: none;
+}
+
+.facebook_icone {
+  width: 10%;
+  color: rgb(23, 23, 238);
+}
+
+.instagram_icone {
+  width: 10%;
+  color: rgb(251, 30, 30);
+}
+
+.facebook_icone :hover {
+  color: rgb(6, 6, 66);
+}
+.instagram_icone:hover {
+  color: rgb(100, 14, 14);
 }
 
 @media (max-width: 650px) {
