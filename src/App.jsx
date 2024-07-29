@@ -11,7 +11,7 @@ import Menu from "./Components/Menu.jsx";
 import "./App.css";
 import CustomerReview from "./Components/Customer_reviews.jsx";
 import Footer from "./Components/Footer.jsx";
-
+import Comment from "./Components/comment.jsx";
 class App extends React.Component {
   render() {
     return (
@@ -48,6 +48,7 @@ class App extends React.Component {
           <div className="Customer_review">
             <CustomerReview />
           </div>
+          <Comment />
           <div className="footer">
             <Footer />
           </div>

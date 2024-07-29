@@ -12,29 +12,7 @@ function CustomerReview() {
           </div>
           <div className="Containers_box">
             <div className="container_user">
-              <div className="user_profile"></div>
-              <div className="review_star">
-                <p>Review star here</p>
-              </div>
-              <div className="comment"></div>
-            </div>
-
-            <div className="container_user">
-              <div className="user_profile"></div>
-              <div className="review_star">
-                <p>Review star here</p>
-              </div>
-              <div className="comment"></div>
-            </div>
-            <div className="container_user">
-              <div className="user_profile"></div>
-              <div className="review_star">
-                <p>Review star here</p>
-              </div>
-              <div className="comment"></div>
-            </div>
-            <div className="container_user">
-              <div className="user_profile"></div>
+              <div className="user_name"></div>
               <div className="review_star">
                 <p>Review star here</p>
               </div>

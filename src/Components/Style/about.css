@@ -91,4 +91,13 @@
   .Container_details {
     flex: 1;
   }
+  .Container_details p {
+    text-align: justify;
+  }
+
+  .Container_details h1 {
+    justify-content: center;
+    width: 100%;
+    font-size: 1.4rem;
+  }
 }
