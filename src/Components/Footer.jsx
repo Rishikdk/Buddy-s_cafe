@@ -37,8 +37,6 @@ function Footer() {
             <li>About Us</li>
             <li>Menu</li>
             <li>Server</li>
-            <li></li>
-            <li></li>
           </ul>
         </div>
       </footer>
