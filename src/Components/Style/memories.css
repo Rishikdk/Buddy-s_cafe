@@ -30,6 +30,7 @@
   width: 150%;
   height: auto;
   aspect-ratio: 16/9;
+  transition: all 2s;
 }
 /* .celeb_pic:hover {
   animation-play-state: paused !important;
