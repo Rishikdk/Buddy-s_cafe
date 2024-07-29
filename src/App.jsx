@@ -48,7 +48,7 @@ class App extends React.Component {
           <div className="Customer_review">
             <CustomerReview />
           </div>
-          <Comment />
+          {/* <Comment /> */}
           <div className="footer">
             <Footer />
           </div>

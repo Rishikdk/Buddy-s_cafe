@@ -5,6 +5,7 @@
   height: 40vh;
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .footer_logo img {
@@ -26,8 +27,19 @@
   color: var(--white);
   list-style: none;
 }
+.map_location iframe {
+  display: flex;
+  width: 60%;
+}
 
 /* .map_location {
   width: 20%;
   height: 20vh;
 } */
+
+@media (max-width: 600px) {
+  .map_location iframe {
+    display: flex;
+    width: 100%;
+  }
+}
